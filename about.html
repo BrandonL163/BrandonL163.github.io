@@ -7,14 +7,16 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        background-color: white;
         }
 
         body {
-      
+              background-image: url("background_image.png");
           }
 
           .h1-style {
             font-family: sans-serif;
+            color: black;
           }
 
           .cut-off-hr {
@@ -26,47 +28,60 @@
             font-size: 20px;
             color: black;
           }
+          .main-body {
+            background-color: white;
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
     </style>
     <head>
         <meta charset="utf-8">
-        <title>Brandon's Portfolio</title>
+        <title>About Me Page</title>
     </head>
     <body>
        <header>
-           <img src="unnamed.jpg" class="banner">
+           <img src="C:\Users\Brandon\Downloads\mybanner.png" class="banner">
        </header>
 
-<table class="banner">
+<table class="banner" style="border: 5px solid #111;">
          <tbody>
            <tr>
             <td>
               <a href="index.html">
                 <div style="height:100%;width: 100%">
-                  <img src="homebutton.png">
+                  <img src="home_button.png">
                 </div>
               </a>
             </td>
             <td>
               <a href="javascripts.html">
                 <div style="height:100%;width:100%">
-                  <img src="javascript.png">
+                  <img src="javascripts_button.png">
                 </div>
               </a>
             </td>
             <td>
               <a href="about.html">
                 <div style="height:100%;width:100%">
-                  <img src="aboutme.png">
+                  <img src="aboutme_buttonbest.png">
+                  
                 </div>
               </a>
             </td>
           </tr>
          </tbody>
        </table>
-
+      <div class="main-body">
        <center><h1 class="h1-style">About Me</h1></center>
        <hr class="cut-off-hr">
-       <p id="desc-p">As I said earlier, my name is Brandon Leone. I am from Shrewsbury, MA and I am a current freshman at the University of Rhode Island. <br> My hobbies are going to the gym, traveling, and running. CSC 106 is pretty much my first programming class, besides web design <br> which I took in my freshman year of high school.</p>
+       <p id="desc-p">As I said earlier, my name is Brandon Leone. I am from Shrewsbury, MA and I am a current freshman at the University of Rhode Island. <br> My hobbies are going to the gym, traveling, playing basketball, and running. CSC 106 is pretty much my first programming class, besides web design <br> which I took in my freshman year of high school.</p>
 
+       <img src="pic_for_banner.jpg" style="height: 250px; width:250px; margin-left: 1.5em;">
+       <img src="second_pic.jpg" style="height: 250px; width: 250px; float:right; margin-right: 1.5em;">
+       <img src="lifepic1.jpg" style="height:250px; width:250px; margin-left: 1.5em; margin-top: 1.5em;">
+       <img src="lifepic2.jpg" style="height:250px; width:250px; float: right; margin-right: 1.5em; margin-top: 1.5em;">
+</div>
     </body>
 </html>
